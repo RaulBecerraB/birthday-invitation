@@ -29,6 +29,7 @@ h2
 
 .container {
     max-width: 1200px;
+    height: 60vh; /* Agregamos una altura fija del 80% del viewport height */
     margin: 0 auto;
     padding: 20px;
     background-color: white;

@@ -9,7 +9,7 @@ export default function page() {
         width="500"
         height="350"
         allowFullScreen={true}
-        loading="lazy"
+        loading="eager"
         referrerPolicy="no-referrer-when-downgrade"
         className='rounded-3xl border-2 border-primary border-solid w-[300px] sm:w-[500px]'
       />
