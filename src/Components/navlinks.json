@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Inicio",
+      "href": "/"
+    },
+    {
+      "name": "Ubicación",
+      "href": "/Ubication"
+    },
+    {
+      "name": "Detalles",
+      "href": "/Details"
+    },
+    {
+      "name": "Whatsapp",
+      "href": "/Whatsapp"
+    },
+    {
+      "name": "Contador",
+      "href": "/Countdown"
+    }
+]
