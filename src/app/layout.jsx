@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased bg-background`}
       >
-        <main className="min-h-screen flex flex-col items-center">
+        <main className=" flex flex-col items-center">
           <NavBar />
           {children}
         </main>

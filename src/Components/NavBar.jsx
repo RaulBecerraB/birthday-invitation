@@ -9,7 +9,7 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full max-w-4xl mx-auto mt-4 mb-8">
+    <div className="w-full max-w-4xl mx-auto mb-8">
       <div className="bg-white shadow-md shadow-black/20 rounded-[20px] p-2">
         <div className="mx-auto px-8 relative">
           {/* Hamburger button */}
