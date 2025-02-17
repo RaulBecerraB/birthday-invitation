@@ -26,11 +26,12 @@ export default function NavBar() {
           {/* Navigation links */}
           <div className={`
             ${isMenuOpen ? 'flex' : 'hidden'} 
-            md:flex justify-center items-center
-            md:relative fixed inset-0
+            md:flex md:justify-center md:items-center
+            fixed md:relative inset-0
             bg-white md:bg-transparent
             z-40 md:z-auto
             h-screen md:h-auto
+            flex-col md:flex-row
           `}>
             <div className="flex flex-col md:flex-row md:space-x-12 space-y-6 md:space-y-0 items-center">
               {links.map((link, index) => (
