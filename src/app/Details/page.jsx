@@ -1,11 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import './Details.css'
+
 export default function page() {
     return (
-        <div className='container'>
+        <div className='details-container'>
             <h1>Detalles</h1>
-            <div className='flex flex-col md:flex-row gap-4'>
-                <div className="details-section w-full">
+            <div className='details-layout'>
+                <div className="details-section">
                     <h2>¿Qué es lo que vamos a comer? 🍖</h2>
                     <ul className="details-list">
                         <li>Un ribeye por persona</li>
@@ -26,13 +28,13 @@ export default function page() {
                     <h2>¿Cuántas personas puedo traer? 👥</h2>
                     <p className="limit">Máximo 20 personas</p>
                 </div>
-                <div className='flex justify-center w-full md:w-auto'>
+                <div className='image-container'>
                     <Image
                         src="https://media.tenor.com/VDgMW2S9i1gAAAAM/feliz-navidad-tiktok-meme.gif"
                         alt="nerd"
                         width={400}
                         height={100}
-                        className='object-contain'
+                        className='gif-image'
                     />
                 </div>
             </div>

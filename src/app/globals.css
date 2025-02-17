@@ -14,7 +14,7 @@ h1
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
     font-weight: bold;
-    @apply text-primary;
+    color: #133E87;
     text-align: center;
     margin-bottom: 20px;
 }
