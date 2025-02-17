@@ -1,4 +1,3 @@
-"use client";
 import "./globals.css";
 import NavBar from "../Components/NavBar";
 export const metadata = {
@@ -12,10 +11,10 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased bg-background`}
       >
-        <main className=" flex flex-col items-center">
+        <div className=" flex flex-col items-center">
           <NavBar />
           {children}
-        </main>
+        </div>
       </body>
     </html>
   );
