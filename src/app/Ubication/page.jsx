@@ -11,7 +11,7 @@ export default function page() {
         allowFullScreen={true}
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        className='rounded-3xl border-2 border-primary border-solid'
+        className='rounded-3xl border-2 border-primary border-solid w-[300px] sm:w-[500px]'
       />
     </div>
   )
