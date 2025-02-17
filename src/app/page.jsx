@@ -5,7 +5,7 @@ export default function Home() {
     <div className="container">
       <h1 className="">{"<Hola bro, te invito a mi (cumpleaños || peda)>"}</h1>
       <h2 className="my-6">Fecha: 22 de Febrero de 8 a 12 PM</h2>
-      <div className="flex justify-center items-center gap-12 ">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-12">
         <Image src="https://i.pinimg.com/originals/9e/79/0c/9e790c869a6939ad84d519c331cb86cb.gif"
           alt="nerd"
           width={200}
