@@ -14,6 +14,7 @@ export default function page() {
         referrerPolicy="no-referrer-when-downgrade"
         className='rounded-3xl border-2 border-primary border-solid w-[300px] sm:w-[500px]'
       />
+      <h1 className='mt-4'>Casa #5</h1>
     </div>
   )
 }
