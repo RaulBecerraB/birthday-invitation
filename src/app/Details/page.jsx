@@ -4,7 +4,7 @@ import './Details.css'
 
 export default function page() {
     return (
-        <div className='container'>
+        <div className='details-container container'>
             <h1>Detalles</h1>
             <div className='details-layout'>
                 <div className="details-section">
@@ -24,8 +24,6 @@ export default function page() {
                         <li>Vino</li>
                     </ul>
                     <p className="note">* Puedes traer lo que quieras</p>
-
-                    <h2>¿Cuántas personas puedo traer? 👥</h2>
                     <p className="limit">Máximo 20 personas</p>
                 </div>
                 <div className='image-container'>
