@@ -4,7 +4,7 @@ import './Details.css'
 
 export default function page() {
     return (
-        <div className='details-container'>
+        <div className='container'>
             <h1>Detalles</h1>
             <div className='details-layout'>
                 <div className="details-section">
